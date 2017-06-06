@@ -1,6 +1,4 @@
-# 360 tour built using A-Frame
-
-[Check it out!](https://caseyyee.github.io/aframe-360-tour/)
+# Aframe
 
 String together a tour using 360&deg; panorama images.
 
