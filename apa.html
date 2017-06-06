@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/v3.8.3/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script>
+
+</head>
+<body>
+<<a-scene>
+      <a-entity camera="userHeight: 1.6" position="0 0 5" look-controls wasd-controls></a-entity>
+      <a-assets>
+        <a-asset-item id="myPlyModel" src="tes.ply"></a-asset-item>
+      </a-assets>
+      <a-entity ply-model="src: #myPlyModel" position="0 0 -10" rotation="-90 45 0" scale="0.1 0.1 0.6"></a-entity>
+    </a-scene>-->
+</body>
+</html>
